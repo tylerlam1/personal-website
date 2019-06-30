@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins','Sans-serif';
+  color: #222;
+}
+
+
+.bannerimage img{
+    width: 100%;
+    height: 100%;
+}
