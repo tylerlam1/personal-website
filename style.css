@@ -10,7 +10,7 @@ html,body {
 
 .navbar {
     padding: .8rem;
-    position: absolute;
+    position: fixed;
     left:0;
     right:0;
 }
