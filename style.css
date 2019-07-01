@@ -23,11 +23,6 @@ html,body {
     color:white;
     font-weight: bold;
 }  
-
-.lead {
-    padding-left:100px;
-    padding-right:100px;
-}
   
 .nav-link {
     font-size: 1.1rem !important;
@@ -42,7 +37,8 @@ html,body {
     border-radius: 4px;
     padding: 10px;
     width: 350px;
-    padding-bottom:30px;
+    margin-bottom:50px;
+    margin-top:30px;
 }
 .carousel-inner img{
     width: 100%;
