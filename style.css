@@ -41,16 +41,15 @@ html,body {
 }
 @media (max-width: 768px) {
     .carousel-caption {
-      top: 50%;
+      top: 10%;
     }
     .carousel-caption h1 {
-      font-size: 350%;
+      font-size: 200%;
     }
     .carousel-caption h3 {
-      font-size: 140%;
+      font-size: 100%;
       font-weight: 400;
       text-shadow: 1px 1px 10px #000;
-      padding-bottom: 3rem;
     }
 }
 
@@ -62,7 +61,7 @@ display: none;
     show mobile version and hide desktop */
 @media (max-width: 600px) {
 .logo .mobile {
-    display: block;
+    display: none;
 }
 .logo .desktop {
     display: none;
