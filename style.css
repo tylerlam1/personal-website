@@ -66,3 +66,9 @@ display: none;
     display: none;
 }
 }
+
+@media (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
+}
