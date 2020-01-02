@@ -33,3 +33,27 @@
 .text a {
     text-decoration: none;
 }
+
+/* Realignment of components if on mobile device */
+@media (max-width: 768px) {
+
+    /* Re-adjust margins to better fit phone screen */
+    .about {
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    /* Banner Image removed */
+    .banner img {
+        display: none;
+    }
+
+    /* Text margins decreased */
+    .text {
+        margin-left: 0;
+        font-family: 'Lato', 'sans-serif';
+        word-spacing: 2px;
+        font-size: 20px;
+    }
+}

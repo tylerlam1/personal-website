@@ -12,7 +12,22 @@
     padding: 3% 4%;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 2%;
     border-radius: 20%;
+}
+
+/* Re-size buttons on a mobile display */
+@media (max-width: 768px) {
+
+    /* Re-align buttons to the left */
+    .buttons {
+        margin-left: 0;
+    }
+
+    /* Enlarge buttons */
+    .buttons button {
+        font-size: 100%;
+        margin-left: 5%;
+    }
 }
