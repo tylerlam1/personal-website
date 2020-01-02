@@ -11,8 +11,9 @@
 # production
 /build
 /.firebase
-.firebase.json
+/firebase.json
 .firebaserc
+/.gitignore
 
 # misc
 .DS_Store
