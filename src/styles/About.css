@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Quicksand&display=swap');
+
+/* About Me Section */
+.about {
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Banner Image */
+.banner img {
+    float: left;
+    height: 40%;
+    width: 40%;
+    border-radius: 10%;
+}
+
+/* About me text*/
+.text {
+    margin-left: 47%;
+    font-family: 'Lato','sans-serif';
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+/* About Me paragraph text */
+.text p {
+    color: #999999;
+    font-family: 'Quicksand','sans-serif';
+}
+
+/* About Me links */
+.text a {
+    text-decoration: none;
+}
