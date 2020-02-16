@@ -3,7 +3,7 @@ import mainBanner from '../assets/PersonalPicture.jpg'
 import Buttons from './Buttons';
 import '../styles/About.css'
 
-function About() {
+const About = () => {
     return (
         <div className = 'about'>
             <div className = 'banner'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Buttons.css'
 
-function Buttons() {
+const Buttons = () => {
     return (
         <div className='buttons'>
             <a href = 'mailto:tyler.lam1@ucalgary.ca'>
