@@ -1,1 +1,1 @@
-You can visit my website [here](https://tylerlam.me/). Alternatively, you can download and run `npm i` to install all dependencies and `npm start` to run in development mode.
+You can visit my website [here](https://tylerlam.me/).
