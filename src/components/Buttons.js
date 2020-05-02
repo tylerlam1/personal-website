@@ -17,7 +17,7 @@ const Buttons = () => {
       </a>
       &nbsp;
       <a
-        href="https://www.linkedin.com/in/tyler-lam-877a24168/"
+        href="https://www.linkedin.com/in/tylerwlam/"
         target="_blank"
       >
         <button type="button">
