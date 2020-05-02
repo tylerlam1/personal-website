@@ -1,33 +1,38 @@
 /* Button group*/
 .buttons {
-    margin-top: 7%;
-    margin-left: 46%;
+  margin-top: 7%;
+  margin-left: 46%;
 }
 
 /* Font Awesome Button Styling */
 .buttons button {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 3% 4%;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin-left: 2%;
-    border-radius: 20%;
+  background-color: rgb(0, 140, 186);
+  border: none;
+  color: white;
+  padding: 3% 4%;
+  text-decoration: none;
+  display: inline-block;
+  outline: 0;
+  font-size: 18px;
+  margin-left: 2%;
+  border-radius: 20%;
+}
+
+/* Change color on hover */
+.buttons button:hover {
+  background-color: rgb(6, 64, 83);
 }
 
 /* Re-size buttons on a mobile display */
 @media (max-width: 768px) {
+  /* Re-align buttons to the left */
+  .buttons {
+    margin-left: 0;
+  }
 
-    /* Re-align buttons to the left */
-    .buttons {
-        margin-left: 0;
-    }
-
-    /* Enlarge buttons */
-    .buttons button {
-        font-size: 100%;
-        margin-left: 5%;
-    }
+  /* Enlarge buttons */
+  .buttons button {
+    font-size: 100%;
+    margin-left: 5%;
+  }
 }

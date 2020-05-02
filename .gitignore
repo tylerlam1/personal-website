@@ -1,0 +1,9 @@
+# React files
+build/
+public/
+node_modules/
+
+# Firebase hosting files
+.firebaserc
+firebase.json
+.firebase/

@@ -1,16 +1,17 @@
 import React from "react";
+import ProgressiveImage from "react-progressive-image";
 import mainBanner from "../assets/PersonalPicture.jpg";
+import blurBanner from "../assets/BlurPicture.jpg";
 import Buttons from "./Buttons";
-import LazyLoad from "react-lazyload";
 import "../styles/About.css";
 
 const About = () => {
   return (
     <div className="about">
       <div className="banner">
-        <LazyLoad once>
-          <img src={mainBanner} />
-        </LazyLoad>
+        <ProgressiveImage src={mainBanner} placeholder={blurBanner}>
+          {(src) => <img src={src} />}
+        </ProgressiveImage>
       </div>
       <div className="text">
         <h1>Tyler Lam</h1>
