@@ -21,8 +21,8 @@ const About = () => {
           Biomedical Engineering.
           <br />
           <br />
-          I'm currently a student researcher in the{" "}
-          <a href="https://www.aaronphillipslab.com/">Phillips Lab</a>, and
+          I'm currently a Software Developer Intern at {" "}
+          <a href="https://www.energytoolbase.com/">Energy Toolbase</a>, and
           previously have had the pleasure of working as an Information Systems
           intern at{" "}
           <a href="http://www.paramountres.com/">Paramount Resources</a>. At
