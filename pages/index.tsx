@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { Identify } from "../components/identify";
+import { About } from "../components/about";
 import styles from "../styles/Home.module.css";
 
 export default function Home(): JSX.Element {
@@ -8,7 +10,8 @@ export default function Home(): JSX.Element {
         <title>Tyler Lam</title>
       </Head>
       <main className={styles.main}>
-        <h1>Tyler Lam</h1>
+        <Identify />
+        <About />
       </main>
     </div>
   );
