@@ -12,3 +12,9 @@
   flex-direction: column;
   margin: 10% 30% 0 30%;
 }
+
+@media (max-width: 961px) {
+  .main {
+    margin: 5px 5px 0 5px;
+  }
+}

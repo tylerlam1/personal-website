@@ -9,14 +9,19 @@ const IconContainer = styled.div`
   flex-direction: row;
 `;
 
+const DescriptionContainer = styled.p`
+  margin: 2rem 0;
+  font-weight: 50;
+`;
+
 export function About(): JSX.Element {
   return (
     <>
-      <p>
+      <DescriptionContainer>
         Hi There! I'm currently a fourth year student at the University of
         Calgary. In my free time, I enjoy following all things MMA, playing
         Valorant with my friends, and reading!
-      </p>
+      </DescriptionContainer>
       <IconContainer>
         <FontAwesomeLink icon={faEnvelope} link={MAIL_LINK} />
         <FontAwesomeLink icon={faLinkedin} link={GITHUB_LINK} />
