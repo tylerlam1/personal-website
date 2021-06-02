@@ -24,8 +24,8 @@ export function About(): JSX.Element {
       </DescriptionContainer>
       <IconContainer>
         <FontAwesomeLink icon={faEnvelope} link={MAIL_LINK} />
-        <FontAwesomeLink icon={faLinkedin} link={GITHUB_LINK} />
-        <FontAwesomeLink icon={faGithub} link={LINKEDIN_LINK} />
+        <FontAwesomeLink icon={faLinkedin} link={LINKEDIN_LINK} />
+        <FontAwesomeLink icon={faGithub} link={GITHUB_LINK} />
       </IconContainer>
     </>
   );
