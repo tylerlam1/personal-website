@@ -5,6 +5,7 @@ import {
   GITHUB_LINK,
   LINKEDIN_LINK,
   MAIL_LINK,
+  UCALGARY_LINK,
   UFC_LINK,
   VALORANT_LINK,
 } from "../utils/constants";
@@ -29,8 +30,11 @@ export function About(): JSX.Element {
     <>
       <DescriptionContainer>
         <div>
-          Hi There! I'm currently a fourth year student at the University of
-          Calgary. In my free time, I enjoy following all things{" "}
+          Hi There! I'm currently a fourth year student at the{" "}
+          <ExternalLink href={UCALGARY_LINK}>
+            University of Calgary
+          </ExternalLink>
+          . In my free time, I enjoy following all things{" "}
           <ExternalLink href={UFC_LINK}>MMA</ExternalLink>, playing{" "}
           <ExternalLink href={VALORANT_LINK}>Valorant</ExternalLink> with my
           friends, and reading!
