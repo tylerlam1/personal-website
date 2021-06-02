@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/fontawesome-common-types";
 import { PURPLE_TEXT_COLOR } from "../utils/colors";
 
+const FONT_SIZE = "3rem";
+
 const FontAwesomeContainer = styled(FontAwesomeIcon)`
-  font-size: 2.5rem;
+  font-size: ${FONT_SIZE};
   margin-right: 2rem;
   cursor: pointer;
 

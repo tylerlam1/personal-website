@@ -11,6 +11,8 @@ import {
 import FontAwesomeLink from "../styled/FontAwesomeLink";
 import ExternalLink from "../styled/ExternalLink";
 
+const FONT_SIZE = "20px";
+
 const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -19,6 +21,7 @@ const IconContainer = styled.div`
 const DescriptionContainer = styled.p`
   margin: 2rem 0;
   font-weight: 10;
+  font-size: ${FONT_SIZE};
 `;
 
 export function About(): JSX.Element {
