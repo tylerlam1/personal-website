@@ -1,4 +1,4 @@
-This is my personal website you can view [here](www.tylerlam.com). 
+This is my personal website you can view [here](https://www.tylerlam.com). 
 
 ## Getting Started
 
