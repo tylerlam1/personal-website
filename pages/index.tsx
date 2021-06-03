@@ -9,6 +9,7 @@ export default function Home(): JSX.Element {
     <div className={styles.container}>
       <Head>
         <title>Tyler Lam</title>
+        <meta name="description" content="Tyler Lam's Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
