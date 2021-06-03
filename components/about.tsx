@@ -49,23 +49,16 @@ export function About(): JSX.Element {
   return (
     <>
       <DescriptionContainer>
-        <div>
-          Hi There! I'm currently a fourth year student at the{" "}
-          <ExternalLink href={UCALGARY_LINK}>
-            University of Calgary
-          </ExternalLink>
-          . In my free time, I enjoy following all things{" "}
-          <ExternalLink href={UFC_LINK}>MMA</ExternalLink>, playing{" "}
-          <ExternalLink href={VALORANT_LINK}>Valorant</ExternalLink> with my
-          friends, and reading!
-        </div>
+        Hi There! I'm currently a fourth year student at the{" "}
+        <ExternalLink href={UCALGARY_LINK}>University of Calgary</ExternalLink>.
+        In my free time, I enjoy following all things{" "}
+        <ExternalLink href={UFC_LINK}>MMA</ExternalLink>, playing{" "}
+        <ExternalLink href={VALORANT_LINK}>Valorant</ExternalLink> with my
+        friends, and reading!
       </DescriptionContainer>
       <IconContainer>
-        {fontAwesomeIcons.map((fontAwesomeIcon) => (
-          <FontAwesomeLink
-            icon={fontAwesomeIcon.icon}
-            link={fontAwesomeIcon.link}
-          />
+        {fontAwesomeIcons.map(({ icon, link }) => (
+          <FontAwesomeLink key={link} icon={icon} link={link} />
         ))}
       </IconContainer>
     </>
