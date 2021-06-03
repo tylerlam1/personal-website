@@ -14,6 +14,7 @@ export default function Home(): JSX.Element {
           content="View University of Calgary student Tyler Lam's portfolio website"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.tylerlam.com" />
       </Head>
       <main className={styles.main}>
         <Identify />
