@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   GITHUB_LINK,
@@ -25,7 +25,27 @@ const DescriptionContainer = styled.p`
   font-size: ${FONT_SIZE};
 `;
 
+interface FontAwesomeIcons {
+  readonly icon: IconDefinition;
+  readonly link: string;
+}
+
 export function About(): JSX.Element {
+  const fontAwesomeIcons: readonly FontAwesomeIcons[] = [
+    {
+      icon: faEnvelope,
+      link: MAIL_LINK,
+    },
+    {
+      icon: faLinkedin,
+      link: LINKEDIN_LINK,
+    },
+    {
+      icon: faGithub,
+      link: GITHUB_LINK,
+    },
+  ];
+
   return (
     <>
       <DescriptionContainer>
@@ -41,9 +61,12 @@ export function About(): JSX.Element {
         </div>
       </DescriptionContainer>
       <IconContainer>
-        <FontAwesomeLink icon={faEnvelope} link={MAIL_LINK} />
-        <FontAwesomeLink icon={faLinkedin} link={LINKEDIN_LINK} />
-        <FontAwesomeLink icon={faGithub} link={GITHUB_LINK} />
+        {fontAwesomeIcons.map((fontAwesomeIcon) => (
+          <FontAwesomeLink
+            icon={fontAwesomeIcon.icon}
+            link={fontAwesomeIcon.link}
+          />
+        ))}
       </IconContainer>
     </>
   );

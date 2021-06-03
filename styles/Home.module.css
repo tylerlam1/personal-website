@@ -9,11 +9,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  margin: 10% 30% 0 30%;
+  margin: 10% 30% 10% 30%;
 }
 
 @media (max-width: 961px) {
   .main {
-    margin: 3rem 3rem 0 3rem;
+    margin: 3rem;
   }
 }
