@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { PURPLE_TEXT_COLOR } from "../utils/colors";
+import { PURPLE_TEXT_COLOR } from '../utils/colors'
+import styled from 'styled-components'
 
 export default styled.a`
   color: ${PURPLE_TEXT_COLOR};
@@ -7,4 +7,4 @@ export default styled.a`
   :hover {
     text-decoration: underline;
   }
-`;
+`

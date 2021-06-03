@@ -1,5 +1,5 @@
-import Header from "../styled/Header";
-import SubHeader from "../styled/SubHeader";
+import Header from '../styled/Header'
+import SubHeader from '../styled/SubHeader'
 
 export function Identify(): JSX.Element {
   return (
@@ -7,5 +7,5 @@ export function Identify(): JSX.Element {
       <Header>Tyler Lam</Header>
       <SubHeader>Software Engineer Student</SubHeader>
     </>
-  );
+  )
 }

@@ -1,11 +1,12 @@
-import { motion } from "framer-motion";
-import "../styles/globals.css";
+import '../styles/globals.css'
+import { AppProps } from 'next/app'
+import { motion } from 'framer-motion'
 
-const INITIAL_OPACITY = 0;
-const FINAL_OPACITY = 1;
-const TRANSITION_SPEED = 1;
+const INITIAL_OPACITY = 0
+const FINAL_OPACITY = 1
+const TRANSITION_SPEED = 1
 
-function MyApp({ Component, pageProps }): JSX.Element {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <motion.div
       initial={{ opacity: INITIAL_OPACITY }}
@@ -14,7 +15,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
     >
       <Component {...pageProps} />
     </motion.div>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp
