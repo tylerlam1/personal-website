@@ -1,10 +1,10 @@
 import {
+  AMAZON_LINK,
+  FACEBOOK_LINK,
   GITHUB_LINK,
   LINKEDIN_LINK,
   MAIL_LINK,
-  UCALGARY_LINK,
-  UFC_LINK,
-  VALORANT_LINK
+  UCALGARY_LINK
 } from '../utils/constants'
 import { IconDefinition, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -50,9 +50,11 @@ export function About(): JSX.Element {
     <>
       <DescriptionContainer>
         Hi There! I am currently a fourth year student at the{' '}
-        <ExternalLink href={UCALGARY_LINK}>University of Calgary</ExternalLink>. In my free time, I
-        enjoy following all things <ExternalLink href={UFC_LINK}>MMA</ExternalLink>, playing{' '}
-        <ExternalLink href={VALORANT_LINK}>Valorant</ExternalLink> with my friends, and reading!
+        <ExternalLink href={UCALGARY_LINK}>University of Calgary</ExternalLink>. I am a software
+        engineer with diverse wealth of experience in developing customer-facing products at{' '}
+        <ExternalLink href={FACEBOOK_LINK}>Facebook</ExternalLink> and{' '}
+        <ExternalLink href={AMAZON_LINK}>Amazon</ExternalLink>, as well as building technology for
+        biomedical research! Please feel free to connect with me through any of the avenues below.
       </DescriptionContainer>
       <IconContainer>
         {fontAwesomeIcons.map(({ icon, link }) => (
