@@ -1,3 +1,6 @@
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { IconDefinition, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FC } from 'react'
 import {
   AMAZON_LINK,
   FACEBOOK_LINK,
@@ -6,8 +9,6 @@ import {
   MAIL_LINK,
   UCALGARY_LINK
 } from '../utils/constants'
-import { IconDefinition, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import ExternalLink from '../styled/ExternalLink'
 import FontAwesomeLink from '../styled/FontAwesomeLink'
 import styled from 'styled-components'
@@ -30,7 +31,7 @@ interface FontAwesomeIcons {
   readonly link: string
 }
 
-export function About(): JSX.Element {
+export const About: FC = () => {
   const fontAwesomeIcons: readonly FontAwesomeIcons[] = [
     {
       icon: faEnvelope,

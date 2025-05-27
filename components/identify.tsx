@@ -1,7 +1,8 @@
+import { FC } from 'react'
 import Header from '../styled/Header'
 import SubHeader from '../styled/SubHeader'
 
-export function Identify(): JSX.Element {
+export const Identify: FC = () => {
   return (
     <>
       <Header>Tyler Lam</Header>

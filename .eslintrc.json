@@ -38,7 +38,7 @@
           }
         ],
         "prettier/prettier": ["error", {}, { "usePrettierrc": true}],
-        "sort-imports": ["error"]
+        "sort-imports": "off"
       }
     }
   ]

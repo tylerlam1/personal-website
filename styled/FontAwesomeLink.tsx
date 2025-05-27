@@ -1,7 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconDefinition } from '@fortawesome/fontawesome-common-types'
-import { PURPLE_TEXT_COLOR } from '../utils/colors'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FC } from 'react'
 import styled from 'styled-components'
+import { PURPLE_TEXT_COLOR } from '../utils/colors'
 
 const FONT_SIZE = '3rem'
 
@@ -20,10 +21,12 @@ interface FontAwesomeLinkProps {
   readonly link: string
 }
 
-export default function FontAwesomeLink({ icon, link }: FontAwesomeLinkProps): JSX.Element {
+const FontAwesomeLink: FC<FontAwesomeLinkProps> = ({ icon, link }) => {
   return (
     <a href={link}>
       <FontAwesomeContainer icon={icon} />
     </a>
   )
 }
+
+export default FontAwesomeLink

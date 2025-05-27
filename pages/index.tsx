@@ -1,10 +1,11 @@
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { About } from '../components/about'
+import { FC } from 'react'
 import Head from 'next/head'
 import { Identify } from '../components/identify'
 import styles from '../styles/Home.module.css'
 
-export default function Home(): JSX.Element {
+const Home: FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -23,3 +24,5 @@ export default function Home(): JSX.Element {
     </div>
   )
 }
+
+export default Home
